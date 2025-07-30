@@ -2,7 +2,7 @@
 
 set -e
 
-sudo apt install golang-go
+sudo apt install -y golang-go
 
 (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \

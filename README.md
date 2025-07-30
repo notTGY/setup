@@ -1,4 +1,6 @@
 # Setup
 
-`curl github.com/nottgy/setup/run.sh | sh`
+```
+curl https://raw.githubusercontent.com/notTGY/setup/refs/heads/main/run.sh | sh
+```
 
